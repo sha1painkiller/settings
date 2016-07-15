@@ -15,7 +15,7 @@ set tabstop=4        " tab width is 4 spaces
 set shiftwidth=4     " indent also with 4 spaces
 set expandtab        " expand tabs to spaces
 " wrap lines at 120 chars. 80 is somewaht antiquated with nowadays displays.
-set textwidth=120
+"set textwidth=120
 " turn line numbers on
 set number
 " highlight matching braces
@@ -33,3 +33,5 @@ set nowb
 set noswapfile
 "Always show current position
 set ruler
+"highlight search result
+set hlsearch
