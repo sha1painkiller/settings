@@ -35,3 +35,7 @@ set noswapfile
 set ruler
 "highlight search result
 set hlsearch
+" set tag path
+set tags=./tags,tags;$HOME
+" trim tailing whitespace
+autocmd BufWritePre * %s/\s\+$//e
