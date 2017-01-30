@@ -22,6 +22,8 @@ set number
 set showmatch
 " remap key functions
 " map <F7> :w<CR>
+noremap <F7> :tabnext<CR>
+noremap <F8> :tabprevious<CR>
 " goto definition with F12
 " map <F12> <C-]>
 
