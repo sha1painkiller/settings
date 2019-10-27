@@ -1,0 +1,20 @@
+# git
+echo "# AzureSphere-Tricks" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sha1painkiller/<project>.git
+git push -u origin master
+
+# find and replace
+# ref -> https://ssorc.tw/2283
+find . -name "*.java" -exec sed -i s/foo/bar/g {} +
+sed -i -e 's/few/asd/g' hello.txt
+find . -type f -iname "*.java" -exec grep -L "something somethin" {} \+
+# 查找當前目錄下以a開頭的文件，將其加上後綴.log 
+find . -name “a*” -print | xargs -i mv {} {}.log 
+find . -name “a*” -exec mv {} {}.log \;
+
+# 查找當前目錄下以a開頭的文件，並將其列出
+find . -name “a*” -exec ls -l {} \;
+
