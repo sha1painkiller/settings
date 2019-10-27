@@ -1,9 +1,9 @@
 # git
 echo "# AzureSphere-Tricks" >> README.md
-git init
+#git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/sha1painkiller/<project>.git
+#git remote add origin https://github.com/sha1painkiller/<project>.git
 git push -u origin master
 
 # find and replace
