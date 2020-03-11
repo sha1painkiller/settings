@@ -19,3 +19,8 @@ function bclean()
     rm -f cscope.*
 }
 
+function bclean()
+{
+    rm -f tags
+    rm -f cscope.*
+}

@@ -1,5 +1,7 @@
 " personal favorite settigs
 
+" fuzzy file find
+set path+=**
 " set UTF-8 encoding
 set enc=utf-8
 set fenc=utf-8
